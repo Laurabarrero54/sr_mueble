@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SrMueble</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contenido">
+        <!--HEADER, BANNER + TEL CONTACTO-->
+        <header>
+            <article class="superior justificado">
+                <h1>Sr.Mueble</h1>
+                <picture>
+                    <!-- smartphone -->
+                    <source
+                    srcset="
+                    ./img/srMueble_silla_azul.jpg 1x,
+                    ./img/srMueble_silla_azul@2x.jpg 2x,
+                    ./img/srMueble_silla_azul@3x.jpg 3x
+                    "
+                    media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+                    />
+                    <img src="" alt="banner_sillaAzul_srMueble">
+                </picture>    
+                <a class="contacto__correo fondoBtn" href="#">+34 666 666 666</a>
+            </article>
+        </header>
+        <!--MAIN, DATOS INTERÉS, PRODUCTOS DESTACADOS-->
+        <main>
+            <h2>¿Quienes somos?</h2>
+            <h3>1988</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sollicitudin et tellus.</p>
+            <h3>1994</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sollicitudin et tellus.</p>
+            <iframe class="video"></iframe>
+            <picture>
+                <!-- smartphone -->
+                <source
+                srcset="
+                ./img/sofa_amarillo_srMueble 1x,
+                ./img/sofa_amarillo_srMueble@2x.jpg 2x,
+                ./img/sofa_amarillo_srMueble@3x.jpg 3x
+                "
+                media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+                />
+                <img src="" alt="sofa_amarillo_srMueble">
+            </picture>    
+            <picture>
+                <!-- smartphone -->
+                <source
+                srcset="
+                ./img/sofa_2plazas_srMueble 1x,
+                ./img/sofa_2plazas_srMueble@2x.jpg 2x,
+                ./img/sofa_2plazas_srMueble@3x.jpg 3x
+                "
+                media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+                />
+                <img src="" alt="sofa_2plazas_srMueble">
+            </picture>    
+            <picture>
+                <!-- smartphone -->
+                <source
+                srcset="
+                ./img/sillon_reclinable_srMueble.jpg 1x,
+                ./img/sillon_reclinable_srMueble@2x.jpg 2x,
+                ./img/sillon_reclinable_srMueble@3x.jpg 3x
+                "
+                media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+                />
+                <img src="" alt="sillon_reclinable_srMueble">
+            </picture>
+            <article class="justificado"  >
+                <h3>¿Quieres recibir nuestras novedades?</h3>
+                <input type="email" placeholder="E-mail">
+                <a class="contacto__correo fondoBtn" href="#">REGISTRATE</a>
+            </article>  
+        </main>
+        <!--FOOTER, CONTACTO Y REDES SOCIALES-->
+        <footer>
+            <h5>Contactar</h5>
+            <article class="contacto justificado">
+                <h6 class="contacto__direccion">Dirección Plaza España, 34</h6>
+                <h6 class="contacto__ciudad">Palma de Mallorca</h6>
+                <a class="contacto__correo btnGris tipoFooter" href="#">info@srmuebles.com</a>
+                </article>
+            <h5>Redes</h5>
+            <article class="redes justificado">
+                <a class="btnGris tipoFooter" href="#">twitter</a>
+                <a class="btnGris tipoFooter" href="#">Pinterest</a>
+                <a class="btnGris tipoFooter" href="#">Instagram</a>
+                <h6>Copyright 2021 - SrMueble</h6>
+            </article>
+
+        </footer>
+    </section>
+    
+</body>
+</html>

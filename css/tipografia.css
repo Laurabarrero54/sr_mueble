@@ -1,0 +1,20 @@
+/* GENERALES*/
+
+html{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ .titulo{
+     font-size: 1.125rem;
+ }
+
+ footer{
+     color: var(--colorWhite);
+ }
+ .tipoFooter{
+     color: var(--colorWhite);
+ }

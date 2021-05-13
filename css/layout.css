@@ -1,0 +1,23 @@
+/* CSS LAYOUT */
+/* **************************************************************** */
+/* SMARPHONE*/
+.justificado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    display: block;
+    width: 328px;
+    height: 200px;
+}
+.galeria{
+    display: block;
+    width: 328px;
+    height: 200px;
+}
+
+a footer{
+    height: 50px;
+}
